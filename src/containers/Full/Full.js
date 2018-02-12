@@ -28,9 +28,6 @@ import * as firebase from 'firebase';
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 
-<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
-<script>
-  // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAptxhcwaSM8j9JmBh7mpAedyFQOzohs_8",
     authDomain: "bt3103dashboard.firebaseapp.com",
@@ -40,7 +37,6 @@ import * as firebase from 'firebase';
     messagingSenderId: "51635424199"
   };
   firebase.initializeApp(config);
-</script>
 
 
 class Full extends Component {
